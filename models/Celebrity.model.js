@@ -6,6 +6,7 @@ const celebritySchema = new mongoose.Schema({
     name: String,
     ocucupation: String,
     catchPhrase: String
+    
 });
 
 module.exports = model("Celebrity", celebritySchema);
